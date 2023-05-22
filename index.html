@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>medical record</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/avatar-1.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Heba Osama</h1>
+
+            <p class="title">Patiant</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+			<li class="contact-item">
+				<div class="icon-box">
+				  <ion-icon name="mail-outline"></ion-icon>
+				</div>
+  
+				<div class="contact-info">
+				  <p class="contact-title">Full Name</p>
+				  <address>Heba Osama Mahmoud</address>
+				 
+				</div>
+			  </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Blood Type</p>
+				<address>A+</address>
+               
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (213) 352-2795</a
+                >
+              </div>
+            </li>
+			<li class="contact-item">
+				<div class="icon-box">
+				  <ion-icon name="phone-portrait-outline"></ion-icon>
+				</div>
+  
+				<div class="contact-info">
+				  <p class="contact-title">Family Phone</p>
+  
+				  <a href="tel:+12133522795" class="contact-link"
+					>+1 (213) 352-2795</a
+				  >
+				</div>
+			  </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Date Of Birth</p>
+
+                <time datetime="1982-06-23">June 23, 1982</time>
+              </div>
+            </li>
+		
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Address</p>
+
+                <address>Egypt, cairo, Haram</address>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </aside>
+
+	  <article class="about active" data-page="about">
+	
+		<section class="about-text">
+			<div class="container">
+			<table>
+				<tr id="header"><td id="tittle_table" colspan="10"> Medical Visits</td></tr>
+				<tr>
+				  <th>Date</th>
+				  <th>Discription</th>
+				  <th>Diagnosis</th>
+				  <th>Test Results</th>
+				  <th>prescribed medication</th>
+				  <th>Anti-allergic</th>
+				  <th>Surgeries</th>
+				  <th>Dr_Name</th>
+				  <th>Dr_phone</th>
+				 
+			
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td> cancer</td>
+				  <td>Male</td>
+				  <td>biperiden</td>
+				  <td>Aspirin</td>
+				  <td>Colectomy</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				 
+			
+		
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td>  High cholesterol</td>
+				  <td>Male</td>
+				  <td> bimerollast</td>
+				  <td>Ibuprofen</td>
+				  <td>Hepatectomy</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				  
+				  
+		
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td> diabetes</td>
+				  <td>Male</td>
+				  <td>pemetrexed</td>
+				  <td>Naproxen</td>
+				  <td>Cholecystectomy</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				 
+				
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td> Depression</td>
+				  <td>Male</td>
+				  <td> bivalirudin</td>
+				  <td>Ketorolac</td>
+				  <td>Hemorrhoids</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				
+				
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td>Headaches and migraines</td>
+				  <td>Male</td>
+				  <td>betamethasone</td>
+				  <td>Indomethacin</td>
+				  <td>diverticulitis</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				
+				 
+				 
+				</tr>
+				<tr>
+				  <td>01/01/2023</td>
+				  <td>Comprehensive examination</td>
+				  <td>Infectious mononucleosis</td>
+				  <td>Male</td>
+				  <td>Perindopril</td>
+				  <td>Indomethacin</td>
+				  <td>Chronic pancreatitis</td>
+				  <td>Ahmed Ali</td>
+				  <td>1234567890</td>
+				
+				 
+				 
+				</tr>
+			  </table></div>
+		</section>
+	  </article>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
